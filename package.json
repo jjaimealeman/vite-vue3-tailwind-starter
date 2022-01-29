@@ -1,7 +1,14 @@
 {
 	"name": "vite-vue3-tailwind-starter",
-	"version": "0.0.0",
-	"scripts": {
+	"description": "A simple boilerplate using Vue3, Vite, and TailwindCSS for my projects.",
+	"version": "0.0.1",
+	"author": {
+		"name": "Jaime J. Aleman",
+		"email": "jjaimealeman@gmail.com",
+		"url": "https://jjaimealeman.com/"
+	  },
+	  "license": "WTFPL",
+	  "scripts": {
 		"dev": "vite --host",
 		"build": "vite build",
 		"serve": "vite preview"
