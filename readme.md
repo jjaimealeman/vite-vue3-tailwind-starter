@@ -14,3 +14,10 @@ Starting a new starter template with Vite, Vue, and TailwindCSS
 - - https://heroicons.dev/?query=more
 - learn to use HeadlessUI
 - - https://headlessui.dev/vue/menu
+
+
+### Wednesday, February 9, 2022 @ 01:06:11 AM
+
+Trying to get the page title to reflect the current navigated page but I can't get anything to work.
+https://www.youtube.com/watch?v=W6qpsmkuJ8c
+Not even that one.
