@@ -2,9 +2,9 @@
 	<div class="bg-gray-50">
 		<div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
 			<h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-				Ready to dive in Fucker?
+				Ready to dive in today Fucker?
 				<br />
-				<span class="text-indigo-600">Vite + Vue 3 + Tailwind CSS</span>
+				<div class="text-indigo-600">Vite + Vue 3 + Tailwind CSS</div>
 			</h2>
 			<div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
 				<div class="inline-flex rounded-md shadow">
@@ -15,6 +15,11 @@
 				</div>
 				<ButtonRepo />
 			</div>
+		</div>
+		<div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+			<h2 class="text-2xl font-bold leading-8 tracking-normal">Check out the
+				<router-link to="/colors" class="text-indigo-600">Colors Page</router-link>.
+			</h2>
 		</div>
 	</div>
 </template>
