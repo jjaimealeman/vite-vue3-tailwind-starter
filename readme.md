@@ -21,3 +21,15 @@ Starting a new starter template with Vite, Vue, and TailwindCSS
 Trying to get the page title to reflect the current navigated page but I can't get anything to work.
 https://www.youtube.com/watch?v=W6qpsmkuJ8c
 Not even that one.
+
+
+### Wednesday, February 9, 2022 @ 09:27:25 AM
+
+Filed an Issue with the repo maintainer 'web2033' and he replied how to fix the navigation issue I was having. [Simple solution](https://github.com/web2033/vite-vue3-tailwind-starter/issues/247#issuecomment-1033577225).
+
+He also recommends this 3rd party addon:
+- https://github.com/vueuse/head
+> Document head manager for Vue 3.
+>
+> @vueuse/head is a Vue composition API that helps you manage <title>, <meta> and other elements inside document head, it has no dependencies and we always try to keep it as slim as possible.
+>
