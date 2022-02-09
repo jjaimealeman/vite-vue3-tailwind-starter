@@ -3,3 +3,14 @@
 [source](https://github.com/web2033/vite-vue3-tailwind-starter)
 
 Starting a new starter template with Vite, Vue, and TailwindCSS
+
+---
+
+## To Do:
+- learn to use HeroIcons
+- - https://unpkg.com/browse/@heroicons/react/outline/
+- - https://github.com/tailwindlabs/heroicons#vue
+- - https://heroicons.com/
+- - https://heroicons.dev/?query=more
+- learn to use HeadlessUI
+- - https://headlessui.dev/vue/menu
