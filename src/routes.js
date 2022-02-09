@@ -7,6 +7,7 @@ import NotFound from './views/NotFound.vue'
 export const routes = [
 	{
 		path: '/',
+		name: 'Home',
 		component: Home,
 		meta: {
 			title: 'Home'
@@ -14,8 +15,11 @@ export const routes = [
 	},
 	{
 		path: '/about',
+		name: 'About',
 		component: About,
-		meta: { title: 'About' },
+		meta: {
+			title: 'About'
+		},
 		// example of route level code-splitting
 		// this generates a separate chunk (About.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
@@ -23,8 +27,11 @@ export const routes = [
 	},
 	{
 		path: '/colors',
+		name: 'Colors',
 		component: Colors,
-		meta: { title: 'Colors' },
+		meta: {
+			title: 'Colors'
+		},
 	},
 	{
 		path: '/:path(.*)',
