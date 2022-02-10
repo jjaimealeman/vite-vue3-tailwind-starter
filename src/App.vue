@@ -1,3 +1,5 @@
+// LAST KNOWN GOOD WORKING PAGE!
+
 <template>
 	<teleport to="head">
 		<title>Vite ++ | {{ $route.meta.title }}</title>
