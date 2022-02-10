@@ -33,3 +33,23 @@ He also recommends this 3rd party addon:
 >
 > @vueuse/head is a Vue composition API that helps you manage <title>, <meta> and other elements inside document head, it has no dependencies and we always try to keep it as slim as possible.
 >
+
+## Thursday February 10 @ 00:49
+
+Was reading about [UnCSS](https://github.com/unocss/unocss) and it was mentioned that TailwindCSS stole some of their ideas from WindiCSS. 
+
+So now I really want to switch from TailwindCSS to WindiCSS.
+
+Also, the Lead Developer of UnoCSS is Anthony Fu, who also is a Developer of Vite (he also made Vitesse).
+
+
+MIGRATION GUIDE HERE!
+https://windicss.org/guide/migration.html
+https://windicss.org/integrations/vite.html
+
+This keeps getting fucking sweeter and sweeter!!!
+https://windicss.org/features/analyzer.html
+
+OH SHIT, ICONCS!
+https://windicss.org/posts/v31.html#icon-library-for-windi
+
