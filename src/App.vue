@@ -1,53 +1,29 @@
-// THIS IS BROKEN!
-
 <template>
-  <div id="app">
-    <div v-if="error">
-      {{ error }}
-    </div>
-    <ul v-else>
-      <li v-for="restaurant in restaurants" :key="restaurant.id">
-        {{ restaurant.name }}
-      </li>
-    </ul>
-  </div>
+	<teleport to="head">
+		<title>Vite ++ | {{ $route.meta.title }}</title>
+	</teleport>
+	<div>
+		<main>
+			<router-view />
+		</main>
+		<header class="bg-white shadow" v-if="$route.meta.title">
+			<div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+				<h1
+					@click="counter = 0"
+					class="text-3xl font-bold leading-tight text-gray-900">
+					{{ $route.meta.title }} / {{ counter }}
+				</h1>
+			</div>
+		</header>
+	</div>
 </template>
 
-<script>
+<script setup>
+	import { ref } from "vue";
 
-export default {
-  name: 'App',
-  data () {
-    return {
-      restaurants: [],
-      error: null,
-      headers: {'Content-Type': 'application/json'}
-    }
-  },
-  methods: {
-    parseJSON: function (resp) {
-      return (resp.json ? resp.json() : resp);
-    },
-    checkStatus: function (resp) {
-      if (resp.status >= 200 && resp.status < 300) {
-        return resp;
-      }
-      return this.parseJSON(resp).then((resp) => {
-        throw resp;
-      });
-    }
-  },
-  async mounted () {
-    try {
-      const response = await fetch("http://localhost:1337/api/restaurants", {
-        method: 'GET',
-        headers: this.headers,
-      }).then(this.checkStatus)
-        .then(this.parseJSON);
-      this.restaurants = response
-    } catch (error) {
-      this.error = error
-    }
-  }
-}
+	let counter = ref(0);
+
+	setInterval(() => {
+		counter.value++;
+	}, 1000);
 </script>
