@@ -6,14 +6,15 @@
 		"name": "Jaime J. Aleman",
 		"email": "jjaimealeman@gmail.com",
 		"url": "https://jjaimealeman.com/"
-	  },
-	  "license": "WTFPL",
-	  "scripts": {
+	},
+	"license": "WTFPL",
+	"scripts": {
 		"dev": "vite --host",
 		"build": "vite build",
 		"serve": "vite preview"
 	},
 	"dependencies": {
+		"axios": "^0.25.0",
 		"vue": "^3.2.30",
 		"vue-router": "^4.0.12"
 	},
