@@ -1,6 +1,6 @@
 <template>
 	<teleport to="head">
-		<title>Vite ++ | {{ $route.meta.title }}</title>
+		<title>{{ $route.meta.title }}</title>
 	</teleport>
 	<div>
 		<main>

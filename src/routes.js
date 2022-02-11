@@ -11,7 +11,7 @@ export const routes = [
 		name: 'Home',
 		component: Home,
 		meta: {
-			title: 'Home'
+			title: 'Home Page'
 		}
 	},
 	{
@@ -19,7 +19,7 @@ export const routes = [
 		name: 'About',
 		component: About,
 		meta: {
-			title: 'About'
+			title: 'About Page'
 		},
 		// example of route level code-splitting
 		// this generates a separate chunk (About.[hash].js) for this route
@@ -31,7 +31,7 @@ export const routes = [
 		name: 'Colors',
 		component: Colors,
 		meta: {
-			title: 'Colors'
+			title: 'Colors Test'
 		},
 	},
 	{
@@ -39,7 +39,7 @@ export const routes = [
 		name: 'Restaurants',
 		component: Restaurants,
 		meta: {
-			title: 'Restaurants'
+			title: 'Restaurants Listing'
 		},
 	},
 	{
@@ -47,7 +47,7 @@ export const routes = [
 		name: 'NotFound',
 		component: NotFound,
 		meta: {
-			title: 'NotFound'
+			title: 'Page Not Found'
 		}
 	},
 ]
