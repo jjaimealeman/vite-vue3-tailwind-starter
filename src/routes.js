@@ -1,6 +1,7 @@
 import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Colors from './views/Colors.vue'
+import Restaurants from './views/Restaurants.vue'
 import NotFound from './views/NotFound.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
@@ -31,6 +32,14 @@ export const routes = [
 		component: Colors,
 		meta: {
 			title: 'Colors'
+		},
+	},
+	{
+		path: '/restaurants',
+		name: 'Restaurants',
+		component: Restaurants,
+		meta: {
+			title: 'Restaurants'
 		},
 	},
 	{
