@@ -36,7 +36,7 @@ He also recommends this 3rd party addon:
 
 ## Thursday February 10 @ 00:49
 
-Was reading about [UnCSS](https://github.com/unocss/unocss) and it was mentioned that TailwindCSS stole some of their ideas from WindiCSS. 
+Was reading about [UnCSS](https://github.com/unocss/unocss) and it was mentioned that TailwindCSS stole some of their ideas from WindiCSS.
 
 So now I really want to switch from TailwindCSS to WindiCSS.
 
@@ -53,3 +53,10 @@ https://windicss.org/features/analyzer.html
 OH SHIT, ICONCS!
 https://windicss.org/posts/v31.html#icon-library-for-windi
 
+## Thursday, February 10, 2022 @ 09:34:36 PM
+
+SOLUTION!
+
+[Reddit commentor](https://www.reddit.com/r/vuejs/comments/soxgxm/i_need_help_learning_strapi_vue/hwgfchd/?utm_source=reddit&utm_medium=web2x&context=3) suggest `axios`, as it's easier to work with. So I re-followed the [guide](https://docs.strapi.io/developer-docs/latest/developer-resources/content-api/integrations/vue-js.html#get-request-your-collection-type) and it's working!
+
+:D
