@@ -132,6 +132,7 @@ import { BellIcon, MenuIcon, XIcon } from "@heroicons/vue/outline";
 		{ name: "Home", href: "/", current: true },
 		{ name: "About", href: "/about", current: false },
 		{ name: "Colors", href: "/colors", current: false },
+		{ name: "Restaurants", href: "/restaurants", current: false },
 		{ name: "404", href: "/qwerty", current: false },
 	];
 
