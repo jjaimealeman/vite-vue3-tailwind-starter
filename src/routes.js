@@ -44,6 +44,10 @@ export const routes = [
 	},
 	{
 		path: '/:path(.*)',
-		component: NotFound
+		name: 'NotFound',
+		component: NotFound,
+		meta: {
+			title: 'NotFound'
+		}
 	},
 ]
