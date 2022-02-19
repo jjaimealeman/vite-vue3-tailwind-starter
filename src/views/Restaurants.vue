@@ -31,7 +31,11 @@
 				<div v-else>
 					<p v-for="restaurant in restaurants" :key="restaurant.id">
 						<h2>{{ restaurant.attributes.name }}</h2>
-						<a :href="`${restaurant.attributes.url}`" target="_blank">{{ restaurant.attributes.url }}</a>
+
+						<!-- BOTH THESE FORMATS WORK!!! -->
+						<!-- <a :href="`${restaurant.attributes.url}`" target="_blank">{{ restaurant.attributes.url }}</a> -->
+						<a :href="restaurant.attributes.url" target="_blank">{{ restaurant.attributes.url }}</a>
+
 						<span>{{ restaurant.attributes.description }}</span>
 					</p>
 				</div>
