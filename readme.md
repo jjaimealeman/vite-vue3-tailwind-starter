@@ -15,6 +15,8 @@ Starting a new starter template with Vite, Vue, and TailwindCSS
 - - https://heroicons.dev/?query=more
 - learn to use HeadlessUI
 - - https://headlessui.dev/vue/menu
+- Making a Site Work Offline Using the VitePWA Plugin
+	https://css-tricks.com/vitepwa-plugin-offline-service-worker/
 
 
 ### Wednesday, February 9, 2022 @ 01:06:11 AM
@@ -51,7 +53,7 @@ https://windicss.org/integrations/vite.html
 This keeps getting fucking sweeter and sweeter!!!
 https://windicss.org/features/analyzer.html
 
-OH SHIT, ICONCS!
+OH SHIT, ICONS!
 https://windicss.org/posts/v31.html#icon-library-for-windi
 
 ## Thursday, February 10, 2022 @ 09:34:36 PM
