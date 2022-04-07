@@ -1,53 +1,49 @@
 import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Colors from './views/Colors.vue'
-import Restaurants from './views/Restaurants.vue'
+import API from './views/API.vue'
 import NotFound from './views/NotFound.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 export const routes = [
 	{
-		path: '/',
-		name: 'Home',
 		component: Home,
+		name: 'Home',
 		meta: {
 			title: 'Home Page'
-		}
+		},
+		path: '/'
 	},
 	{
-		path: '/about',
-		name: 'About',
 		component: About,
+		name: 'About',
 		meta: {
 			title: 'About Page'
 		},
-		// example of route level code-splitting
-		// this generates a separate chunk (About.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
-		// component: () => import('./views/About.vue')
+		path: '/about'
 	},
 	{
-		path: '/colors',
-		name: 'Colors',
 		component: Colors,
+		name: 'Colors',
 		meta: {
 			title: 'Colors Test'
 		},
+		path: '/colors'
 	},
 	{
-		path: '/restaurants',
-		name: 'Restaurants',
-		component: Restaurants,
+		component: API,
+		name: 'API',
 		meta: {
-			title: 'Restaurants Listing'
+			title: 'API Listing'
 		},
+		path: '/api'
 	},
 	{
-		path: '/:path(.*)',
-		name: 'NotFound',
 		component: NotFound,
+		name: 'NotFound',
 		meta: {
 			title: 'Page Not Found'
-		}
+		},
+		path: '/:path(.*)'
 	},
 ]
