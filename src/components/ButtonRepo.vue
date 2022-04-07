@@ -5,13 +5,8 @@
 			href="https://github.com/web2033/vite-vue3-tailwind-starter"
 			rel="noreferrer"
 			class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium leading-6 text-indigo-600 transition duration-150 ease-in-out hover:text-indigo-500 focus:outline-none"
-			>Learn s'more <DotsHorizontalIcon class="h-5 w-5 pb-0 pt-2 text-blue-500" /> </a>
+			>Learn s'more
+			<i-bx:link-external class="ml-2" />
+		</a>
 	</div>
 </template>
-
-<script>
-	import { DotsHorizontalIcon } from "@heroicons/vue/solid";
-	export default {
-		components: { DotsHorizontalIcon },
-	};
-</script>
