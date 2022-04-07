@@ -10,7 +10,7 @@
 				<div class="inline-flex rounded-md shadow">
 					<router-link
 						to="/"
-						class="inline-flex items-center justify-center rounded-md border border-transparent bg-teal-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-teal-500 focus:outline-none"
+						class="inline-flex items-center justify-center rounded-md border border-transparent bg-teal-400 px-5 py-3 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:bg-teal-500 focus:outline-none"
 						>Back Home</router-link>
 				</div>
 				<ButtonRepo />
