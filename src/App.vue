@@ -1,7 +1,4 @@
 <template>
-	<teleport to="head">
-		<title>{{ $route.meta.title }}</title>
-	</teleport>
 	<main>
 		<Navigation />
 		<router-view />
