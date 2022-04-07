@@ -267,8 +267,26 @@
 </template>
 
 
-<script setup>
-	import ButtonRepo from "@/components/ButtonRepo.vue";
+<script>
+	import { defineComponent, computed, reactive } from 'vue'
+	import { useHead } from '@vueuse/head'
+	export default defineComponent({
+		setup() {
+			const siteData = reactive({
+				title: `TailwindCSS Colors`,
+				description: `A listing of all 22 available colors used for TailwindCSS background-colors and font colors.`,
+			})
+			useHead({
+				title: computed(() => siteData.title),
+				meta: [
+					{
+						name: `description`,
+						content: computed(() => siteData.description),
+					},
+				],
+			})
+		},
+	})
 </script>
 
 
