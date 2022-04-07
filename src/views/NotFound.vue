@@ -20,12 +20,35 @@
 			</div>
 
 			<section class="text-3xl text-center font-bold my-auto py-8 px-16 leading-tight text-red-900 bg-white mx-4 p-4 opacity-50 rounded-md">
-				<p>{{ $route.meta.title }}</p>
+				<p>Page Not Found</p>
 				<p class="text-red-600">(uh-oh)</p>
 			</section>
 		</div>
 	</section>
 </template>
+
+
+<script>
+	import { defineComponent, computed, reactive } from 'vue'
+	import { useHead } from '@vueuse/head'
+	export default defineComponent({
+		setup() {
+			const siteData = reactive({
+				title: `Page Not Found`,
+				description: `uh-oh ... I goofed!`,
+			})
+			useHead({
+				title: computed(() => siteData.title),
+				meta: [
+					{
+						name: `description`,
+						content: computed(() => siteData.description),
+					},
+				],
+			})
+		},
+	})
+</script>
 
 
 <style>
