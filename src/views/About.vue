@@ -24,6 +24,24 @@
 </template>
 
 
-<script setup>
-	import ButtonRepo from "@/components/ButtonRepo.vue";
+<script>
+import { defineComponent, computed, reactive } from 'vue'
+import { useHead } from '@vueuse/head'
+export default defineComponent({
+	setup() {
+		const siteData = reactive({
+			title: `My Simple About Page`,
+			description: `There's lots to say about Me! but not enough time and space to display it - lol! 😆`,
+		})
+		useHead({
+			title: computed(() => siteData.title),
+			meta: [
+				{
+					name: `description`,
+					content: computed(() => siteData.description),
+				},
+			],
+		})
+	},
+})
 </script>
