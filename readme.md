@@ -8,16 +8,20 @@ Starting a new starter template with Vite, Vue, and TailwindCSS
 ---
 
 ## To Do:
-- learn to use HeroIcons
-- - https://unpkg.com/browse/@heroicons/react/outline/
-- - https://github.com/tailwindlabs/heroicons#vue
-- - https://heroicons.com/
-- - https://heroicons.dev/?query=more
-- learn to use HeadlessUI
-- - https://headlessui.dev/vue/menu
-- Making a Site Work Offline Using the VitePWA Plugin
+- [ ] Making a Site Work Offline Using the VitePWA Plugin
 	https://css-tricks.com/vitepwa-plugin-offline-service-worker/
-
+- [ ] learn to use HeroIcons
+- [ ] https://unpkg.com/browse/@heroicons/react/outline/
+- [ ] https://github.com/tailwindlabs/heroicons#vue
+- [ ] https://heroicons.com/
+- [ ] https://heroicons.dev/?query=more
+- [ ] learn to use HeadlessUI
+- [ ] https://headlessui.dev/vue/menu
+- [ ] Vite Plugin Pages
+	File system based route generator for ⚡ Vite
+	https://github.com/hannoeru/vite-plugin-pages
+- [] vite-plugin-pages based sitemap generator
+	https://github.com/jbaubree/vite-plugin-pages-sitemap
 
 ### Wednesday, February 9, 2022 @ 01:06:11 AM
 
