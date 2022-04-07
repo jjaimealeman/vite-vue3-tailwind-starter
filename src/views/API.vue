@@ -32,15 +32,28 @@
 </template>
 
 
-<script setup>
-	import ButtonRepo from "@/components/ButtonRepo.vue";
-</script>
-
-
 <script>
+import { defineComponent, computed, reactive } from 'vue'
+import { useHead } from '@vueuse/head'
 import axios from 'axios';
-	export default {
-		name: 'App',
+export default defineComponent({
+	setup() {
+		const siteData = reactive({
+			title: `My API stuffs`,
+			description: `Learning to play with APIs.`,
+		})
+		useHead({
+			title: computed(() => siteData.title),
+			meta: [
+				{
+					name: `description`,
+					content: computed(() => siteData.description),
+				},
+			],
+		})
+	},
+
+	name: 'App',
 		data () {
 			return {
 				restaurants: [],
@@ -55,7 +68,7 @@ import axios from 'axios';
 				this.error = error;
 			}
 		}
-	}
+	})
 </script>
 
 
