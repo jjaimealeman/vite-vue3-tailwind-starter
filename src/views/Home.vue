@@ -11,13 +11,14 @@
 					<router-link
 						to="/about"
 						class="inline-flex items-center justify-center rounded-md border border-transparent bg-orange-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-orange-500 focus:outline-none"
-						>About Page</router-link>
+					>About Page</router-link>
 				</div>
 				<ButtonRepo />
 			</div>
 		</div>
 		<div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-			<h2 class="text-2xl font-bold leading-8 tracking-normal">Check out the
+			<h2 class="text-2xl font-bold leading-8 tracking-normal">
+				Check out the
 				<router-link to="/colors" class="text-orange-600">Colors Page</router-link>.
 			</h2>
 		</div>
@@ -25,6 +26,25 @@
 </template>
 
 
-<script setup>
-	import ButtonRepo from "@/components/ButtonRepo.vue";
+<script>
+import { defineComponent, computed, reactive } from 'vue'
+import { useHead } from '@vueuse/head'
+export default defineComponent({
+	setup() {
+		const siteData = reactive({
+			title: `My Simple Vue Website`,
+			description: `Learning Vue a little bit at a time. This is the result of learning Vite, Vue3, and TailwindCSS with a bunch of handy extensions and plugins.`,
+		})
+		useHead({
+			title: computed(() => siteData.title),
+			meta: [
+				{
+					name: `description`,
+					content: computed(() => siteData.description),
+				},
+			],
+		})
+	},
+})
+
 </script>
