@@ -1,6 +1,6 @@
 <template>
 	<footer>
-		<p>Copyright &copy; {{ year }} </p>
+		<p>Copyright &copy; {{ year }} | jjaimealeman </p>
 	</footer>
 </template>
 
