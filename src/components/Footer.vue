@@ -18,6 +18,6 @@
 
 <style>
 	footer {
-		@apply bg-gray-800 text-white w-full border-2 border-t-blue-400 p-2 text-center;
+		@apply bg-gray-800 text-white w-full border-t-2 border-t-blue-400 p-2 text-center;
 	}
 </style>
