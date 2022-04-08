@@ -8,16 +8,16 @@
 		<!-- <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8"> -->
 		<div class="mx-auto px-4 py-12 w-full">
 
-			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm">50</span>
-			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm">100</span>
-			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm">200</span>
-			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm">300</span>
-			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm">400</span>
-			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm">500</span>
-			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm">600</span>
-			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm">700</span>
-			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm">800</span>
-			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm">900</span>
+			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm bg-white">50</span>
+			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm bg-white">100</span>
+			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm bg-white">200</span>
+			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm bg-white">300</span>
+			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm bg-white">400</span>
+			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm bg-white">500</span>
+			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm bg-white">600</span>
+			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm bg-white">700</span>
+			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm bg-white">800</span>
+			<span class="p-2 h-12 w-[10%] inline-block text-center sticky top-20 text-sm bg-white">900</span>
 
 			<h3 class="text-center uppercase">slate</h3>
 			<span class="bg-slate-50 p-2 h-12 w-[10%] inline-block"></span>
