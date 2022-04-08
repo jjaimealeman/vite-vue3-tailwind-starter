@@ -1,8 +1,8 @@
 <template>
-	<div class="bg-gray-50 pt-12">
+	<div class="pt-12">
 		<div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
 			<h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-				Ready to dive in today Fucker?
+				Ready to dive in today?
 				<br />
 				<div class="text-orange-600">Vite + Vue 3 + Tailwind CSS</div>
 			</h2>
@@ -27,8 +27,8 @@
 
 
 <script>
-import { defineComponent, computed, reactive } from 'vue'
 import { useHead } from '@vueuse/head'
+import { computed, defineComponent, reactive } from 'vue'
 export default defineComponent({
 	setup() {
 		const siteData = reactive({
