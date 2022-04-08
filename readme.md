@@ -67,3 +67,9 @@ SOLUTION!
 [Reddit commentor](https://www.reddit.com/r/vuejs/comments/soxgxm/i_need_help_learning_strapi_vue/hwgfchd/?utm_source=reddit&utm_medium=web2x&context=3) suggest `axios`, as it's easier to work with. So I re-followed the [guide](https://docs.strapi.io/developer-docs/latest/developer-resources/content-api/integrations/vue-js.html#get-request-your-collection-type) and it's working!
 
 :D
+
+## Wednesday, April 6, 2022 @ 10:50:18 PM
+
+Site is live now.
+
+npx unlighthouse --site https://vite-vue3-tailwind-starter.netlify.app/
