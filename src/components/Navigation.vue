@@ -13,7 +13,7 @@
 
 <style scoped>
 	nav {
-		@apply bg-gray-800 fixed w-full border-2 border-b-blue-400;
+		@apply bg-gray-800 fixed w-full border-b-2 border-b-blue-400;
 	}
 	a {
 		@apply text-gray-300 border-b-2 border-transparent hover:text-blue-400 transition-colors duration-200 transform hover:border-blue-500 mx-1.5 sm:mx-6;
