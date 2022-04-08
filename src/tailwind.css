@@ -7,6 +7,7 @@
 		animation: fadeInAnimation ease 0.25s;
 		animation-iteration-count: 1;
 		animation-fill-mode: forwards;
+		@apply bg-slate-50;
 	}
 	@keyframes fadeInAnimation {
 		0% {
