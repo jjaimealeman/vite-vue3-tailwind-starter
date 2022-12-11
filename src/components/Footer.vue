@@ -1,5 +1,5 @@
 <template>
-	<footer>
+	<footer class="sticky bottom-0">
 		<p>Copyright &copy; {{ year }} | jjaimealeman </p>
 	</footer>
 </template>
