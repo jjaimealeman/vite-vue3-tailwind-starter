@@ -14,8 +14,8 @@
 		"serve": "vite preview"
 	},
 	"dependencies": {
-		"@vueuse/core": "^8.2.5",
-		"@vueuse/head": "^0.7.5",
+		"@vueuse/core": "^9.6.0",
+		"@vueuse/head": "^1.0.22",
 		"axios": "^0.25.0",
 		"unplugin-icons": "^0.14.1",
 		"vue": "^3.2.30",
